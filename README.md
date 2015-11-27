@@ -39,6 +39,7 @@ were to be set, a Typescript type checking error will also arise.
 
 The previous boilerplate used only ts-loader, but now babel-loader is also required with the new react-transform, unless
 somebody writes a special additional loader for Typescript:
+
 ![image 1](https://cloud.githubusercontent.com/assets/2899448/11448335/2ba57154-9556-11e5-8514-50641c37211e.png)
 
 Adding this second transpilation step adds a barely noticeable delay to how quickly hot-reload runs, however this is very
