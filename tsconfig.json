@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"jsx": "react",
+		"noEmit": true
+	},
+	"exclude": [
+		"node_modules",
+		"dev_server.js"
+	]
+}
