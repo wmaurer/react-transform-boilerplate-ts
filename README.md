@@ -45,6 +45,10 @@ somebody writes a special additional loader for Typescript:
 Adding this second transpilation step adds a barely noticeable delay to how quickly hot-reload runs, however this is very
 insignificant compared to the rather slow ts-loader. There is currently an issue open about ts-loader's performance [here](https://github.com/TypeStrong/ts-loader/issues/78)
 
+## Questions?
+
+Raise an issue or ping [@waynemaurer](https://twitter.com/waynemaurer) on Twitter.
+
 ## License
 
 CC0 (public domain)
