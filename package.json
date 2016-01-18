@@ -4,7 +4,6 @@
 	"description": "A new Webpack boilerplate with hot reloading React components written in Typescript",
 	"scripts": {
 		"clean": "rimraf dist",
-		"build": "npm run clean && npm run build:webpack",
 		"start": "node devServer.js"
 	},
 	"repository": {
