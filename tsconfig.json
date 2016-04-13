@@ -1,8 +1,7 @@
 {
 	"compilerOptions": {
 		"target": "ES6",
-		"jsx": "react",
-		"noEmit": true
+		"jsx": "react"
 	},
 	"exclude": [
 		"node_modules",
