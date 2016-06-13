@@ -14,8 +14,7 @@ module.exports = {
 		publicPath: '/static/'
 	},
 	plugins: [
-		new webpack.HotModuleReplacementPlugin(),
-		new webpack.NoErrorsPlugin()
+		new webpack.HotModuleReplacementPlugin()
 	],
 	module: {
 		loaders: [{
@@ -26,6 +25,13 @@ module.exports = {
 	},
 	resolve: {
 		root: [path.resolve('./src')],
-		extensions: ['', '.jsx', '.js', '.tsx', '.ts']
-	}
+		extensions: ['', '.jsx', '.js', '.tsx', '.ts'],
+        alias: {
+            react: path.resolve(__dirname, './node_modules/react')
+        },
+        fallback: path.resolve(__dirname, './node_modules')
+	},
+    resolveLoader: {
+        fallback: path.resolve(__dirname, './node_modules')
+    }
 };
