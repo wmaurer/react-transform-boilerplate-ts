@@ -21,7 +21,7 @@ module.exports = {
 		loaders: [{
 			test: /\.tsx?$/,
 			loaders: ['babel', 'ts'],
-			include: path.join(__dirname, 'src')
+			include: path.resolve('./src')
 		}]
 	},
 	resolve: {
